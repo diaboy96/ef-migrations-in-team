@@ -12,5 +12,7 @@ namespace ef_migrations_in_team.Models
         {
 
         }
+
+        public DbSet<Blog> Blogs { get; set; }
     }
 }
