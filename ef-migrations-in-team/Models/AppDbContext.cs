@@ -14,5 +14,6 @@ namespace ef_migrations_in_team.Models
         }
 
         public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Person> People { get; set; }
     }
 }
