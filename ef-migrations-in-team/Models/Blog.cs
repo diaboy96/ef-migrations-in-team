@@ -11,6 +11,5 @@ namespace ef_migrations_in_team.Models
         public string Name { get; set; }
         public string Url { get; set; }
         public int Rating { get; set; }
-        public int Readers { get; set; }
     }
 }
